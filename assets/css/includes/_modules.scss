@@ -1,0 +1,78 @@
+header {
+  border-bottom: 1px solid #eee;
+  ul {
+    a {
+      @include tsn(1);
+      &:hover {
+        background-color: $p;
+        color: $w;
+      }
+    }
+  }
+}
+
+.pagination {
+ 
+  .item {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100px;
+    &:hover {
+      background-color: rgba($p, 0.09);
+      color: $p;
+    }
+  }
+  .active{
+    background-color: $p;
+    color: #fff;
+  }
+  button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      color: $p;
+      background-color: rgba($p, 0.09);
+    }
+  }
+}
+.form-group {
+  margin-top: 10px;
+  .error{
+    color: red;
+  }
+  label {
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 90%;
+  }
+  .form-control {
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 4px;
+  }
+}
+.btn{
+  padding: 10px 20px;
+  background-color: $p;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover{
+    background-color: rgba($p, 0.9);
+    box-shadow: 0px 10px 30px rgba($b, 0.2);
+  }
+}

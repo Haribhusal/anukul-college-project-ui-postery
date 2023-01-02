@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postery</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="flex jcb px-30 py-20 bg-white aic">
+      <a href="index.html">
+        <div class="logo flex font-24 gap-16 aic">
+          <i class="las la-eye"></i>
+          <h3 class="title">Postery</h3>
+        </div>
+      </a>
+      <nav>
+        <ul class="flex gap-16">
+          <li>
+            <a href="dashboard-posts.html" class="block px-15 py-10 rounded"> My Dashboard </a>
+          </li>
+          <li>
+            <a href="login.html" class="block px-15 py-10 rounded"> Login </a>
+          </li>
+          <li>
+            <a href="register.html" class="block px-15 py-10 rounded bg-p"> Get Started </a>
+          </li>
+          <li>
+            <a href="add-post.html" class="block px-15 py-10 rounded bg-p"> <i class="las la-plus"></i> Add Post</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="dashboard flex">
+      <div
+        class="menu flex flex-col jcb flex-1 px-30 py-30 mt-30 rounded h-min-80 bg-gray"
+      >
+        <div class="top">
+          <div class="heading">
+            <h3 class="title font-24">Welcome Anukul</h3>
+          </div>
+          <ul class="menuItems mt-20">
+            <li>
+              <a href="dashboard-posts.html" class="py-10 flex gap-10 aic font-18">
+                <i class="las la-chart-line"></i>
+                <div class="label">Dashboard</div>
+              </a>
+            </li>
+            <li>
+              <a href="dashboard-posts.html" class=" py-10 flex gap-10 aic font-18">
+                <i class="las la-sticky-note"></i>
+                <div class="label">My Posts</div>
+              </a>
+            </li>
+            <li>
+              <a href="dashboard-profile.html" class="py-10 active flex gap-10 aic font-18">
+                <i class="las la-user"></i>
+                <div class="label">Profile</div>
+              </a>
+            </li>
+            <li>
+              <a href="dashboard-settings.html" class="py-10 flex gap-10 aic font-18">
+                <i class="las la-cog"></i>
+                <div class="label">Settings</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="py-10 flex gap-10 aic font-18">
+          <i class="las la-sign-out-alt"></i>
+          <div class="label">Logout</div>
+        </a>
+      </div>
+      <div class="content flex-4 px-30 py-30 h-min-80">
+        <div class="heading flex jcb aic">
+          <h3 class="title font-24">My Profile</h3>
+          <span class="itemCount">
+            Edit Profile
+          </span>
+        </div>
+        <form action="">
+          <div class="row flex gap-30">
+            <div class="item flex-1">
+              <div class="form-group">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter Name" value="Anukul Sapkota" class="form-control">
+              </div>
+            </div>
+            <div class="item flex-1">
+              <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter Email" value="anukulsapkota@gmail.com" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="heading flex jcb aic mt-30">
+            <h3 class="title font-24">Change Password</h3>
+            <span class="itemCount">
+              Edit Profile
+            </span>
+          </div>
+          <div class="row flex gap-30">
+            <div class="item flex-1">
+              <div class="form-group">
+                <label for="">Current Password</label>
+                <input type="password" placeholder="Enter Current Password" value="Anukul Sapkota" class="form-control">
+              </div>
+            </div>
+            <div class="item flex-1">
+              <div class="form-group">
+                <label for="">New Password</label>
+                <input type="password" placeholder="Enter New Password" value="anukulsapkota@gmail.com" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="row mt-30">
+            <button class="btn" type="submit">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="px-30 bg-black py-30 mt-30 bg-gray flex jcb">
+      <p>&copy; Postery, 2022. All Rights Reserved</p>
+      <ul class="flex gap-16">
+        <li>
+          <a href="#">Terms and Conditions</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">FAQ's</a>
+        </li>
+      </ul>
+      <p>Powered by <a href="#">Anukul Sapkota</a></p>
+    </footer>
+  </body>
+</html>

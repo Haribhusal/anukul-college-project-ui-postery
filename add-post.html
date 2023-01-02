@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postery</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="flex jcb px-30 py-20 bg-white aic">
+      <a href="index.html">
+        <div class="logo flex font-24 gap-16 aic">
+          <i class="las la-eye"></i>
+          <h3 class="title">Postery</h3>
+        </div>
+      </a>
+      <nav>
+        <ul class="flex gap-16">
+          <li>
+            <a href="dashboard-posts.html" class="block px-15 py-10 rounded"> My Dashboard </a>
+          </li>
+          <li>
+            <a href="login.html" class="block px-15 py-10 rounded"> Login </a>
+          </li>
+          <li>
+            <a href="register.html" class="block px-15 py-10 rounded bg-p"> Get Started </a>
+          </li>
+          <li>
+            <a href="add-post.html" class="block px-15 py-10 rounded bg-p"> <i class="las la-plus"></i> Add Post</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="addPost  flex aic">
+      <div class="empty flex-1"></div>
+      <div class="addPostWrapper bg-white rounded py-30 px-30 shadow mt-30 flex-2">
+        <div class="heading">
+          <h3 class="title font-24">What's on your mind?</h3>
+        </div>
+        <form action="">
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea name="" id="" cols="" rows="10" placeholder="Type here..." class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message">Add Media</label>
+            <input type="file">
+          </div>
+          <div class="btnwrapper mt-20">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="empty flex-1"></div>
+    </main>
+    <footer class="px-30 bg-black py-30 mt-30 bg-gray flex jcb">
+      <p>&copy; Postery, 2022. All Rights Reserved</p>
+      <ul class="flex gap-16">
+        <li>
+          <a href="#">Terms and Conditions</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">FAQ's</a>
+        </li>
+      </ul>
+      <p>Powered by <a href="#">Anukul Sapkota</a></p>
+    </footer>
+  </body>
+</html>

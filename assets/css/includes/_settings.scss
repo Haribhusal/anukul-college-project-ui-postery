@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-size: 16px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+.aic {
+  align-items: center;
+}
+.ais {
+  align-items: flex-start;
+}
+.aie {
+  align-items: flex-end;
+}
+.jcs {
+  justify-content: flex-start;
+}
+.jcc {
+  justify-content: center;
+}
+.jce {
+  justify-content: flex-end;
+}
+.jcb {
+  justify-content: space-between;
+}
+.jca {
+  justify-content: space-around;
+}
+.jce {
+  justify-content: space-evenly;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+.bg-white {
+  background-color: #fff;
+}
+.text-gray {
+  color: #999;
+}
+.text-white {
+  color: #fff;
+}
+.text-black {
+  color: black;
+}
+.shadow {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.block {
+  display: block;
+}
+.text-p {
+  color: $p;
+}
+.rounded-sm {
+  border-radius: 4px;
+}
+.rounded {
+  border-radius: 8px;
+}
+.comment{
+  border-left: 5px solid $p;
+  
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.rounded-big {
+  border-radius: 16px;
+}
+.text-opacity{
+  opacity: 0.8;
+}
+.h-min-80{
+  min-height: 80vh;
+}
+
+.bg-p {
+  background-color: $p;
+  color: $w;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}

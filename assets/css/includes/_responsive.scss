@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+    footer{
+        flex-direction: column;
+        ul{
+            flex-direction: column;
+            margin: 15px 0;
+        }
+    }
+  .home {
+    .posts {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+    .home {
+      .posts {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+  
